@@ -1,0 +1,212 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+
+"python -m SimpleHTTPServer"
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -webkit-font-smoothing: antialiased;
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+header {
+     display: block;
+     padding: 0 20px;
+     height: 50px;
+     background: #FFF;
+}
+
+header:after {
+     content: "";
+     display: table;
+     clear: both;
+}
+
+header h1 {
+     background-color: #fff;
+     color: #5C5C5C;
+     text-align: left;
+     font-size: 20px;
+     letter-spacing: 0.1em;
+     line-height: 50px;
+     margin:0 auto;
+     font-family: "Lato", 300;
+     text-transform: lowercase;
+     float: left;
+}
+
+nav {
+     display: block;
+     float: right;
+}
+
+nav ul {
+     list-style: none;
+     margin: 0;
+     padding: 0;
+}
+
+nav ul:after {
+     content: "";
+     display: table;
+     clear: both;
+}
+
+nav ul li {
+     display: block;
+     float: left;
+     margin-left: 10px;
+     line-height: 50px;
+}
+
+nav ul li a {
+     text-decoration: none;
+     color: #5C5C5C;
+     font-size: 15px;
+}
+
+nav ul li a:hover {
+     color: red;
+}
+
+nav ul li:last-child {
+     padding-right: 500px;
+}
+
+nav ul li:first-child {
+     padding-right: 100px;
+}
+
+/*.about_me{
+     text align: left;
+     line-height: 1.4em;
+     margin:0 auto;
+     background-color: #FABF3E;
+     padding: 25px 0px 25px 0px;
+     clear:both;
+     font-family: "Lato", sans-serif;
+}
+
+.about_me p {
+     font-size: 1em;
+     color: #fff;
+     width:450px;
+     margin:0 auto;
+     font-size: 1em;
+}
+.about_me a {
+     text-decoration: none;
+     color: red;
+}*/
+
+.container_1,
+.container_2,
+.container_3,
+.container_4 {
+     width:100%;
+     height:780px;
+}
+.container_1 {
+     background:url(../img/brasilia.jpg) no-repeat;
+     background-size: cover;
+}
+
+.container_2 {
+     background:url(../img/secret_brand.jpg) no-repeat;
+     background-size: cover;
+}
+
+.container_3 {
+     background:url(../img/investigating.png) no-repeat;
+     background-size: cover;
+}
+
+.container_4 {
+     background:url(../img/interventions.jpg) no-repeat;
+     background-size: cover;
+}
+
+.project_1, .project_2, .project_3, .project_4 {
+     width: 350px;
+     height: 780px;
+     line-height: 1.6em;
+     float:left;
+     padding:50px 20px 5px 20px;
+     clear:both;
+     color: #fff;
+     font-size: 1em;
+     font-family: "omnes-pro",sans-serif;
+     letter-spacing: 0.017em;
+     font-weight: medium;
+}
+
+.project_1 h3, .project_2 h3 ,.project_3 h3,.project_4 h3 {
+     padding-top: 40px;
+     text-transform: uppercase;
+     font-weight: 700;
+     letter-spacing: 0.3em;
+     font-size: 1.2em;
+     font-family: "adelle", serif;
+     line-height: 1.6em;
+}
+
+.project_1 {
+    background-color: rgba(255,0,0,.5);
+}
+
+.project_2 {
+     background-color: rgba(201, 0, 113, 0.5);
+}
+
+.project_3 {
+     background-color: rgba(41,131, 253, 0.3);
+}
+
+.project_4 {
+     background-color: rgba(255, 173, 95, 0.3);
+}
+
+.sticky {
+position: fixed;
+width: 100%;
+left: 0;
+top: 0;
+z-index: 100;
+border-top: 0;
+}
+
+.hidden {
+     background-color: #FABF3E;
+     height:40px;
+     width: 100%;
+}
+
+
+
+
+
