@@ -102,6 +102,21 @@ nav ul li:first-child {
      padding-right: 100px;
 }
 
+#container {
+     margin: 0 auto;
+     width:70%;
+}
+
+#container .item {
+     display: block;
+     float:left;
+     width: 200px;
+}
+
+#container .item.w2 {
+     width: 500px;
+}
+
 /*.about_me{
      text align: left;
      line-height: 1.4em;
@@ -123,7 +138,7 @@ nav ul li:first-child {
      text-decoration: none;
      color: red;
 }*/
-
+/*
 .container_1,
 .container_2,
 .container_3,
@@ -205,7 +220,7 @@ border-top: 0;
      height:40px;
      width: 100%;
 }
-
+*/
 
 
 

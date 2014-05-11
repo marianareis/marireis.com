@@ -1,8 +1,10 @@
 $(document).ready(function() {
   console.log("hey!");
-  // listen to click of #trigger
-  $("#trigger").on("click", function() {
-    $(".about_me").toggleClass("slideDown");
+    var container = document.querySelector('#container');
+    var pckry = new Packery( container, {
+    // options
+    itemSelector: '.item',
+    gutter: 0
   });
 });
 
