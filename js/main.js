@@ -4,7 +4,7 @@ $(document).ready(function() {
     var pckry = new Packery( container, {
     // options
     itemSelector: '.item',
-    gutter: 0
+    gutter: 0;
   });
 });
 
