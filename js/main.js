@@ -1,10 +1,14 @@
 $(document).ready(function() {
-  console.log("hey!");
-    var container = document.querySelector('#container');
-    var pckry = new Packery( container, {
-    // options
-    itemSelector: '.item',
-    gutter: 0;
+  $("#info_trigger").click(function(event) {
+    event.preventDefault();
+    $('.box-container').slideToggle();
+  });
+
+  $(".item__trigger").click(function(event) {
+    event.preventDefault();
+
+    var $el = $(this).parent().next('.item__info');
+    $el.slideToggle();
   });
 });
 
