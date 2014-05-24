@@ -1,8 +1,14 @@
 $(document).ready(function() {
-  console.log("hey!");
-  // listen to click of #trigger
-  $("#trigger").on("click", function() {
-    $(".about_me").toggleClass("slideDown");
+  $("#info_trigger").click(function(event) {
+    event.preventDefault();
+    $('.box-container').slideToggle();
+  });
+
+  $(".item__trigger").click(function(event) {
+    event.preventDefault();
+
+    var $el = $(this).parent().next('.item__info');
+    $el.slideToggle();
   });
 });
 
